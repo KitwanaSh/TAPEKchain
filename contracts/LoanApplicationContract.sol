@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.9;
 
 contract LoanApplicationContract {
     address public lender;
@@ -11,7 +11,7 @@ contract LoanApplicationContract {
     uint public interestRate;
     
     // Transaction records
-    address public bankAddress;
+    address public absabank_Address;
     string public transactionRecordsHash;
     
     enum LoanStatus { Applied, Approved, Rejected }
@@ -34,7 +34,7 @@ contract LoanApplicationContract {
         loanAmount = _loanAmount;
         loanTerm = _loanTerm;
         interestRate = _interestRate;
-        bankAddress = _bankAddress;
+        absabank_Address = _bankAddress;
         transactionRecordsHash = _transactionRecordsHash;
         status = LoanStatus.Applied;
     }
