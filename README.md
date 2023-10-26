@@ -5,6 +5,9 @@ This project is made on that purpose, we are among _20 other teams_ that compete
 In our project, we are solving the challenges that SMEs face currently, which are the inefficiencies, high costs and redundancies associated with traditional methods for Know Your Customer (`KYC`) and creditworthiness processes for loan applications.
 With this probem, we thought of the following contracts:
 
+### Apply For Loan
+This is the first function in the contract which implies the two other fuctions below, Approve and Decline.
+
 ### Approve Loan Application
 This contract is only valid when the customer meets a specific cretiria. The criteria is,
 when the total amount of turnover is greater than the total amount of expenses. The transaction history is tracked only if customer
