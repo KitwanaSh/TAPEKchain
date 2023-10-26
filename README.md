@@ -19,4 +19,5 @@ Other contracts that we have here are like:
 - Debit momo transaction
 
 The whole contracts are built in the __contracts__ folder, in the `LoanApplicationContract.sol` file. The contact itself is called
-`LoanAppicationContract`. Then the functionalities are _approved_, _reject_, _applyForLoan_.
+`LoanAppicationContract`. Then the functionalities are _approved_, _reject_, _applyForLoan_. Then we have a contract tha test our
+contact. The contract is in the unittestcontracts folder. In there we test the rejection, applyforLoan, ApproveApplication, ...
